@@ -1,6 +1,6 @@
 {
   "build": {
-    "builder": "paketobuildpacks/builder:base",
+    "builder": "Nixpacks",
     "buildCommand": "composer install --no-dev --prefer-dist --optimize-autoloader"
   },
   "deploy": {
